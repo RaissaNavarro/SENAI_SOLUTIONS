@@ -1,0 +1,550 @@
+/* area de modificacao mobile */
+.banner-container {
+    padding: 30px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+
+}
+
+.categorias-container{
+    padding: 16px;
+}
+
+.titles{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.titles h3{
+    font-size: 12px;
+    font-family: "Poppins";
+}
+
+.titles a {
+    text-decoration: none;
+    color: red;
+    font-size: 9px;
+    font-family: "Poppins";
+}
+
+.titles-category{
+    font-size: 14px;
+    font-family: "Poppins";
+}
+
+.categoria {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-card-container{
+    width: 50px;
+}
+
+.img-card-container img{
+    width: 100%;
+    height: auto;
+}
+
+.image-container{
+    width: 30%;
+}
+
+.h3{
+    font-size: 14px;
+    font-family: "Poppins";
+}
+
+/* area de modificacao dos titulos */
+.title-model{
+    font-family: "Poppins";
+    font-size: 15px;
+
+}
+
+.titles h3 {
+    font-size: 9px;
+    font-family: "Poppins";
+    transition: color 0.3s, text-shadow 0.3s; 
+}
+
+.titles h3:hover {
+    color: #A92727; 
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+}
+
+.titles-models h3 {
+    background-color: rgba(237, 237, 237, 1);
+    color: black;
+    border-radius: 5px;
+    padding: 5px 15px;
+    transition: color 0.3s, text-shadow 0.3s; 
+    font-family: "Poppins";
+
+}
+
+.titles-models h3:hover {
+    color: white; 
+    cursor: pointer;
+    background-color: #A92727;
+}
+
+.titles-models{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Poppins";
+    font-size: 8px;
+    color: #A92727;
+
+}
+
+/* area dos modelos */
+.models{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-models{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.modelos-container{
+    padding: 15px;
+}
+
+.img-card-model{
+    padding-top: 10px;
+    width: 170%;
+}
+
+
+.img-card-model img{
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* estrutura do botão */
+.button-see button {
+    background-color: #A92727;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 4px 6px;
+    font-size: 10px;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    margin-top: 10px;
+}
+
+.button-see button:hover {
+    background-color: white;
+    color: #A92727;
+}
+
+
+/* estilização do formulário */
+.sugestoes {
+    padding: 30px 15px;
+    text-align: left; 
+}
+.linha-vermelha {
+    border: none;
+    border-top: 2px solid #A92727; 
+    margin: 20px 0;
+}
+
+.sugestoes-content {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between; 
+
+}
+
+.titulo-sugestoes {
+    font-size: 15px;
+    font-family: "Poppins";
+    margin-right: 50px; 
+    color: gray;
+    margin-top: 100px;
+
+}
+
+.formulario-container {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+}
+
+.formulario {
+    max-width: 300px; 
+    margin: 0 auto; 
+}
+
+.formulario h3 {
+    font-size: 13px;
+    margin-bottom: 5px;
+    font-family: "Poppins";
+    color: #A92727;
+}
+
+.formulario label {
+    display: block;
+    margin: 5px 0 2px;
+    font-family: "Poppins";
+    font-size: 10px;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 70%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #A92727;
+    border-radius: 5px;
+}
+
+.formulario button {
+    background-color: #A92727;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 35px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario button:hover {
+    background-color: white;
+    color: #A92727;
+}
+
+.redes-sociais {
+    text-align: left; 
+    margin-left: 10px; 
+
+}
+
+.redes-sociais h3 {
+    font-size: 13px;
+    margin-bottom: 5px;
+    font-family: "Poppins";
+    color: #A92727;
+
+}
+
+.redes-sociais ul {
+    list-style: none; 
+    padding: 0; 
+
+}
+
+.redes-sociais li {
+    margin: 5px 0; 
+    font-family: "Poppins";
+    padding-top: 5px;
+    font-size: 15px;
+
+}
+i.bi.bi-facebook{
+    color: #A92727;
+    font-size: 20px;
+}
+
+i.bi.bi-twitter{
+    color: #A92727;
+    font-size: 20px;
+}
+i.bi.bi-instagram{
+    color: #A92727;
+    font-size: 20px;
+}
+
+
+@media (min-width:563px){
+
+
+/* Estrutura web */
+.banner-container {
+    padding: 80px 150px ;
+
+}
+
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+} 
+
+.banner img {
+    width: 87%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+
+.img-card-container {
+    width: 80px; 
+}
+
+.img-card-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s; 
+}
+
+
+.categorias-container{
+    padding: 20px;
+}
+
+
+
+/* Estilização da área de categoria */
+.card-categoria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+    border-radius: 20px;
+    transition: transform 0.3s, box-shadow 0.3s; 
+    cursor: pointer;
+}
+
+.card-categoria:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.categoria {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* area dos titulos */
+.title-model{
+    font-family: "Poppins";
+    font-size: 20px;
+
+}
+
+.titles h3 {
+    font-size: 15px;
+    font-family: "Poppins";
+    transition: color 0.3s, text-shadow 0.3s; 
+}
+
+.titles h3:hover {
+    color: #A92727; 
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    cursor: pointer;
+}
+
+.titles-category{
+    font-size: 20px;
+}
+
+.titles-models h3 {
+    transition: color 0.3s, text-shadow 0.3s; 
+}
+
+.titles-models h3 {
+    background-color: rgba(237, 237, 237, 1);
+    color: black;
+    border-radius: 5px;
+    padding: 15px 30px;
+    transition: color 0.3s, text-shadow 0.3s; 
+    font-family: "Poppins";
+}
+
+.titles-models{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Poppins";
+    font-size: 13px;
+    color: #A92727;
+}
+
+/* area dos modelos */
+.models{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.card-models{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.modelos-container{
+    padding: 30px;
+}
+
+.img-card-model{
+    padding-top: 20px;
+    width: 150%;
+}
+
+
+.img-card-model img{
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.button-see button {
+    background-color: #A92727;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 35px;
+    font-size: 15px;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    margin-top: 15px;
+}
+
+.button-see button:hover {
+    background-color: white;
+    color: #A92727;
+}
+
+/* estilização do formulário */
+.sugestoes {
+    padding: 30px 15px;
+    text-align: left; 
+    
+
+.linha-vermelha {
+    border: none;
+    border-top: 2px solid #A92727; 
+    margin: 20px 0;
+}
+
+.sugestoes-content {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between; 
+}
+
+.titulo-sugestoes {
+    font-size: 30px;
+    font-family: "Poppins";
+    margin-right: 40px; 
+    color: gray;
+    margin-top: 150px;
+}
+
+.formulario-container {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+}
+
+.formulario {
+    max-width: 400px; 
+    margin: 0 auto; 
+}
+
+.formulario h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: "Poppins";
+}
+
+.formulario label {
+    display: block;
+    margin: 10px 0 5px;
+    font-family: "Poppins";
+    font-size: 17px;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #A92727;
+    border-radius: 5px;
+}
+
+.formulario button {
+    background-color: #A92727;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 40px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario button:hover {
+    background-color: white;
+    color: #A92727;
+}
+
+.redes-sociais {
+    text-align: left; 
+    margin-right: 50px; 
+}
+
+.redes-sociais h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: "Poppins";
+}
+
+.redes-sociais ul {
+    list-style: none; 
+    padding: 0; 
+}
+
+.redes-sociais li {
+    margin: 5px 0; 
+    font-family: "Poppins";
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+i.bi.bi-facebook::before{
+    color: #A92727;
+    font-size: 30px;
+}
+
+i.bi.bi-twitter::before{
+    color: #A92727;
+    font-size: 30px;
+}
+i.bi.bi-instagram::before{
+    color: #A92727;
+    font-size: 30px;
+}
+
+}
+}

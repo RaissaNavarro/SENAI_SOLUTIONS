@@ -1,0 +1,152 @@
+:root {
+    --bg-color: #fff;
+    --font: "Poppins";
+    --border-color: red
+}
+
+
+header {
+    border-top: 2px solid var(--border-color);
+}
+
+header .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 1%;
+}
+
+.filter-web{
+    display: none;
+}
+
+i.bi {
+    font-size: 24px;
+}
+
+
+
+input[name="search-bar"] {
+    padding: 6px 38px;
+    background-color: #EDEDED;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+    margin-left: 55px;
+    padding-top: 10px;
+    font-size: 10px;
+    outline: 0;
+}
+
+.search-bar{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar-container{
+    position: relative;
+    width: 80%;
+    display: flex;
+}
+
+i.bi-search {
+    position: absolute;
+    top: 9px;
+    left: 66px;
+    font-size: 12px;
+}
+
+i.bi-toggles {
+    position: relative;
+    color: #A92727;
+    font-size: 25px;
+    margin-right: 10px;
+    top: 2px;
+
+}
+
+i.bi-bell{
+    position: relative;
+    font-size: 25px;
+    right: 10px;
+}
+
+
+
+@media (min-width:563px){
+   header .container {
+    flex-wrap: nowrap;
+    justify-content: baseline;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+   }
+
+   .filter-web{
+    display: flex;
+}
+
+.filter-mobile{
+    display: none;
+}
+
+.icons {
+    display: flex;
+    order:3;
+    column-gap: 15px;
+}
+.search-bar{
+    position: relative;
+    justify-content: center;
+    width: 100%; 
+    order: 2;
+}
+
+.search-bar-container{
+    width: 80%;  
+}
+
+.bi-search::before {
+    content: "\f52a";
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.bi-toggles::before {
+    content: "\f5d9";
+    margin-right: 30px;
+    margin-bottom: 5px;
+    color: #A92727;
+    font-size: 35px;
+}
+
+.bi-bell::before {
+    content: "\f18a";
+    margin-right: 20px;
+    color: #A92727;
+    font-size: 35px;
+    
+}
+
+
+/* área de input */
+input[name="search-bar"] {
+    padding: 8px 38px;
+    background-color: #EDEDED;
+    border-radius: 6px;
+    border: none;
+    width: 100%;
+    margin-left: 70px;
+    padding-top: 10px;
+    font-size: 16px;
+    outline: 0;
+}
+
+}
+
+
+

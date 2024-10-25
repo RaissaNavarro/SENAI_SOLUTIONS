@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Estilos de fontes que serão usadas no site -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Estilos para ícones que serão usados no site -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="image-container">
+          <!-- Logo do site -->
+          <img src="./images/logo.png" alt="Logo do site" />
+        </div>
+
+        <div class="icons">
+          <div class="notification-container">
+            <!-- Ícone de notificação -->
+            <i class="bi bi-bell"></i>
+          </div>
+          <div class="filter-web">
+            <!-- Ícone de filtro -->
+            <i class="bi bi-toggles"></i>
+          </div>
+        </div>
+
+        <div class="search-bar">
+          <div class="search-bar-container">
+            <!-- Ícone de busca -->
+            <i class="bi bi-search"></i>
+            <input
+              type="text"
+              name="search-bar"
+              id="search-bar"
+              placeholder="Pesquisar Projetos"
+              class="search-input"
+            />
+          </div>
+          <div class="filter-mobile">
+            <div>
+              <!-- Ícone de filtro para visualização em dispositivos móveis -->
+              <i class="bi bi-toggles"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="banner-container">
+          <div class="banner">
+            <!-- Imagem do banner principal do site -->
+            <img src="images/banner.png" alt="Banner Senai Solutions" />
+          </div>
+        </div>
+
+        <section class="categorias">
+          <div class="container">
+            <div class="categorias-container">
+              <div class="titles-category">
+                <!-- Título para a seção de categorias -->
+                <h3>Categorias</h3>
+              </div>
+              <div class="categoria">
+                <!-- Cada categoria é representada por um cartão -->
+                <div class="card-categoria">
+                  <div class="img-card-container">
+                    <!-- Imagem da categoria Web -->
+                    <img src="./images/web.png" alt="Categoria Web" />
+                  </div>
+                  <div class="titles">
+                    <h3>Web</h3>
+                  </div>
+                </div>
+                <div class="card-categoria">
+                  <div class="img-card-container">
+                    <!-- Imagem da categoria Mobile -->
+                    <img src="./images/Mobile.png" alt="Categoria Mobile" />
+                  </div>
+                  <div class="titles">
+                    <h3>Mobile</h3>
+                  </div>
+                </div>
+                <div class="card-categoria">
+                  <div class="img-card-container">
+                    <!-- Imagem da categoria BDD -->
+                    <img src="./images/BDD.png" alt="Categoria BDD" />
+                  </div>
+                  <div class="titles">
+                    <h3>BDD</h3>
+                  </div>
+                </div>
+                <div class="card-categoria">
+                  <div class="img-card-container">
+                    <!-- Imagem da categoria Protótipo -->
+                    <img
+                      src="./images/Prototipo.png"
+                      alt="Categoria Protótipo"
+                    />
+                  </div>
+                  <div class="titles">
+                    <h3>Protótipo</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="modelos">
+          <div class="container">
+            <div class="modelos-container">
+              <div class="title-model">
+                <!-- Título para a seção de modelos -->
+                <h3>Modelos</h3>
+              </div>
+              <div class="titles-models">
+                <!-- Opções de tipos de modelos -->
+                <h3>Todos</h3>
+                <h3>Ecommerce</h3>
+                <h3>Populares</h3>
+                <h3>Portfólio</h3>
+              </div>
+              <div class="models">
+                <!-- Cada modelo é representado por um cartão com imagem e botão -->
+                <div class="card-models">
+                  <div class="img-card-model">
+                    <img src="./images/Jaco1.jpg" alt="Modelo Jaco1" />
+                  </div>
+                  <div class="button-see">
+                    <button>Ver mais</button>
+                  </div>
+                </div>
+                <div class="card-models">
+                  <div class="img-card-model">
+                    <img src="./images/puremoda.jpg" alt="Modelo Puremoda" />
+                  </div>
+                  <div class="button-see">
+                    <button>Ver mais</button>
+                  </div>
+                </div>
+                <div class="card-models">
+                  <div class="img-card-model">
+                    <img src="./images/capflow.jpg" alt="Modelo Capflow" />
+                  </div>
+                  <div class="button-see">
+                    <button>Ver mais</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="sugestoes">
+          <div class="container">
+            <!-- Linha vermelha que separa seções -->
+            <hr class="linha-vermelha" />
+            <div class="sugestoes-content">
+              <h2 class="titulo-sugestoes">Sugestões</h2>
+              <form
+                action="seu-action-aqui"
+                method="POST"
+                class="formulario-container"
+              >
+                <div class="formulario">
+                  <h3>Formulário</h3>
+                  <!-- Campo para o nome do usuário -->
+                  <label for="nome">Nome:</label>
+                  <input type="text" id="nome" name="nome" required />
+
+                  <!-- Campo para o email do usuário -->
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required />
+
+                  <!-- Campo para o assunto da sugestão -->
+                  <label for="assunto">Assunto:</label>
+                  <textarea
+                    id="assunto"
+                    name="assunto"
+                    rows="2"
+                    required
+                  ></textarea>
+                  <button type="submit">Enviar</button>
+                </div>
+              </form>
+              <div class="redes-sociais">
+                <h3>Redes Sociais</h3>
+                <ul>
+                  <li><i class="bi bi-facebook"></i> Facebook</li>
+                  <li><i class="bi bi-twitter"></i> Twitter</li>
+                  <li><i class="bi bi-instagram"></i> Instagram</li>
+                </ul>
+              </div>
+            </div>
+            <!-- Outra linha vermelha para fechar a seção -->
+            <hr class="linha-vermelha" />
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
